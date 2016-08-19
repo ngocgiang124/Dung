@@ -67,7 +67,9 @@ setInterval(function () {
    clearTimeout();
   */
 
- var time=10;
+/* Phao hoa
+var time=10;
+$("h1").css('color','blue');
 $("h1").text(time);
 demlui=setInterval(function () {
  time--;
@@ -80,3 +82,26 @@ demlui=setInterval(function () {
 },1000)
 $("img").css('width','500px');
 $("img").css('height','300px');
+*/
+
+/*
+var time=0;
+var minute=0;
+$("#2").text(time + "giây");
+setInterval(function () {
+    time++;
+    $("#2").text(time + "giây");
+    if(time==60){
+        time=0;
+        $("#2").text(time+"giây");
+        for(time=-1;time==60;time++)
+        {
+            $("#2").text(time + "giây");
+        }
+        minute++;
+        $("#1").text(minute+"phút");
+    }
+},1000);
+*/
+
+
